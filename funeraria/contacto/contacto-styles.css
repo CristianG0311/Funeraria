@@ -1,0 +1,153 @@
+/* RESET */
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('img/paisaje.png') center/cover fixed no-repeat;
+    color: #222;
+}
+
+/* NAV */
+nav {
+    width: 100%;
+    background-color: #072344;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 6%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+nav .logo {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .18s;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.10);
+}
+
+/* HERO */
+header {
+    height: 45vh;
+    background: url("contacto-banner.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* INFO CONTACTO */
+.info {
+    padding: 50px 8%;
+    background: white;
+}
+.grid-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.infocard {
+    background: #e9e9e9;
+    padding: 30px;
+    border-radius: 8px;
+    width: 220px;
+    text-align: center;
+}
+
+/* FORMULARIO */
+.form {
+    padding: 50px 8%;
+    background: white;
+    text-align: center;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+form input,
+form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+form button {
+    background: #0c2a47;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+}
+form button:hover {
+    background: #093153;
+}
+
+/* MAPA */
+.mapa {
+    padding: 60px 8%;
+    background: white;
+    text-align: center;
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+.mapa iframe {
+    width: 85%;
+    height: 350px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* HORARIOS */
+.horarios {
+    padding: 40px 8%;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+/* FOOTER */
+footer {
+    background: #0c2a47;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map-btn {
+    background-color: #0c2a47;
+    color: white;
+    text-decoration: none;
+    padding: 14px 22px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.map-btn:hover {
+    background-color: #093153;
+}

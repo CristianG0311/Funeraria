@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Funeraria.Aplicacion/Funeraria.Aplicacion.csproj" />
+  <Project Path="Funeraria.Dominio/Funeraria.Dominio.csproj" />
+  <Project Path="Funeraria.Facturacion/Funeraria.Facturacion.csproj" />
+  <Project Path="Funeraria.Infraestructura/Funeraria.Infraestructura.csproj" />
+  <Project Path="FunerariaPanel/FunerariaPanel.csproj" />
+</Solution>

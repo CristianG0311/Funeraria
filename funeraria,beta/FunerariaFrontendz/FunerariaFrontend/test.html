@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Modal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background: #f5f5f5;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+        }
+
+        /* MODAL */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .modal.show {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .success {
+            color: green;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Prueba de Modal</h1>
+    <p>Si este botón abre el modal, entonces tu sistema está funcionando correctamente.</p>
+    
+    <button class="btn" onclick="abrirModal()">
+        ➕ Abrir Modal de Prueba
+    </button>
+
+    <div id="resultado" class="success"></div>
+
+    <!-- Modal -->
+    <div id="modalPrueba" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>✅ ¡Modal Funcionando!</h2>
+                <button class="close-modal" onclick="cerrarModal()">&times;</button>
+            </div>
+            
+            <p>Si puedes ver este mensaje, significa que:</p>
+            <ul>
+                <li>✅ El JavaScript está funcionando</li>
+                <li>✅ El CSS está aplicado correctamente</li>
+                <li>✅ Los modales funcionarán en tu sistema</li>
+            </ul>
+
+            <button class="btn" onclick="cerrarModal()">Cerrar</button>
+        </div>
+    </div>
+
+    <script>
+        // Función para abrir el modal
+        function abrirModal() {
+            console.log('Abriendo modal...');
+            const modal = document.getElementById('modalPrueba');
+            modal.classList.add('show');
+            document.getElementById('resultado').textContent = '✅ Función abrirModal() ejecutada correctamente';
+        }
+
+        // Función para cerrar el modal
+        function cerrarModal() {
+            console.log('Cerrando modal...');
+            const modal = document.getElementById('modalPrueba');
+            modal.classList.remove('show');
+            document.getElementById('resultado').textContent = '✅ Modal cerrado correctamente';
+        }
+
+        // Cerrar al hacer clic fuera del modal
+        window.onclick = function(event) {
+            const modal = document.getElementById('modalPrueba');
+            if (event.target === modal) {
+                cerrarModal();
+            }
+        };
+
+        // Mensaje en consola
+        console.log('✅ Test cargado correctamente');
+        console.log('Funciones disponibles:', typeof abrirModal, typeof cerrarModal);
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.deps.json
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfoInputs.cache
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfo.cs
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\refint\Funeraria.Dominio.dll
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\Cristian\Desktop\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\ref\Funeraria.Dominio.dll
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.deps.json
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfoInputs.cache
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfo.cs
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\refint\Funeraria.Dominio.dll
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\DELL\Music\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\ref\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.deps.json
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\refint\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\USER\OneDrive\Documentos\HTML\SEMESTRAL VX\SEMESTRAL VX\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\ref\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.deps.json
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\refint\Funeraria.Dominio.dll
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\USER\OneDrive\Documentos\HTML\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\ref\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.deps.json
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfoInputs.cache
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfo.cs
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\refint\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\Paul\Downloads\funeraria,beta\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\ref\Funeraria.Dominio.dll
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.deps.json
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfo.cs
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\refint\Funeraria.Dominio.dll
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\DELL\Documents\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\ref\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.deps.json
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\bin\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfoInputs.cache
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.AssemblyInfo.cs
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\refint\Funeraria.Dominio.dll
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\Funeraria.Dominio.pdb
+C:\Users\Paul\Downloads\funeraria,beta (2)\funeraria,beta\Backend\FunerariaPanel\Funeraria.Dominio\obj\Debug\net8.0\ref\Funeraria.Dominio.dll

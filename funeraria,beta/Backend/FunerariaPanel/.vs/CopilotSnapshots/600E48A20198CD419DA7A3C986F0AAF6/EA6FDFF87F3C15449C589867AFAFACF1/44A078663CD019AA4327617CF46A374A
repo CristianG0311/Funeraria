@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Funeraria.Aplicacion.DTOs.Auth
+{
+    /// <summary>
+    /// DTO de respuesta al iniciar sesión
+    /// </summary>
+    public class LoginResponse
+    {
+        public string Token { get; set; }
+        public string NombreUsuario { get; set; }
+        public string NombreCompleto { get; set; }
+        public string Rol { get; set; }
+        public DateTime FechaExpiracion { get; set; }
+    }
+}
+

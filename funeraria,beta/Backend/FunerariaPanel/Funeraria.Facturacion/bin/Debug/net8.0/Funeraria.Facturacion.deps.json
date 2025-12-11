@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Funeraria.Facturacion/1.0.0": {
+        "dependencies": {
+          "Funeraria.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Funeraria.Facturacion.dll": {}
+        }
+      },
+      "Funeraria.Dominio/1.0.0": {
+        "runtime": {
+          "Funeraria.Dominio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Funeraria.Facturacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Funeraria.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

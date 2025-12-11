@@ -1,0 +1,152 @@
+/* RESET */
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('img/paisaje.png') center/cover fixed no-repeat;
+    color: #222;
+}
+
+/* NAV */
+nav {
+    width: 100%;
+    background-color: #072344;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 6%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+nav .logo {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .18s;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.10);
+}
+
+/* HERO */
+header {
+    height: 50vh;
+    background: url("nosotros-banner.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* GENERAL SECTIONS */
+section {
+    padding: 50px 8%;
+    background: white;
+    margin-bottom: 0px;
+}
+section h2 {
+    color: #0c2a47;
+    text-align: center;
+}
+
+/* IMAGENES */
+.img {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* MISION/VISION */
+.mision-vision {
+    display: flex;
+    gap: 30px;
+}
+.mision-vision .box {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 6px;
+    flex: 1;
+}
+
+/* VALORES */
+.valores ul {
+    list-style: none;
+    text-align: center;
+}
+.valores ul li {
+    margin: 8px 0;
+}
+
+/* EQUIPO */
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.team-card {
+    text-align: center;
+    width: 220px;
+}
+.team-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* TESTIMONIOS */
+.testimonios .tbox {
+    background: #ececec;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 700px;
+    border-radius: 6px;
+}
+
+/* CONTACTO */
+.contacto form {
+    max-width: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacto input, .contacto textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.contacto button {
+    padding: 12px;
+    background: #0c2a47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contacto button:hover {
+    background: #093153;
+}
+
+/* FOOTER */
+footer {
+    background: #0c2a47;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}

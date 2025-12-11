@@ -1,0 +1,11 @@
+﻿namespace Funeraria.Dominio.Enums
+{
+    /// <summary>
+    /// Enum para los roles de usuario
+    /// </summary>
+    public enum RolUsuario
+    {
+        Administrador = 1,
+        UsuarioNormal = 2
+    }
+}

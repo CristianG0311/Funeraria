@@ -1,0 +1,6 @@
+@FunerariaPanel_HostAddress = http://localhost:5012
+
+GET {{FunerariaPanel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

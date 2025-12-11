@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Sistema Funeraria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>🏛️ Funeraria</h2>
+                <p id="userRole">Administrador</p>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li><a href="dashboard.html"><i>📊</i><span>Dashboard</span></a></li>
+                <li><a href="servicios.html" class="active"><i>📋</i><span>Servicios</span></a></li>
+                <li><a href="documentos.html"><i>📄</i><span>Documentos</span></a></li>
+                <li><a href="inventario.html"><i>📦</i><span>Inventario</span></a></li>
+                <li><a href="facturacion.html"><i>💰</i><span>Facturación</span></a></li>
+            </ul>
+            
+            <button class="btn btn-danger logout-btn" onclick="logout()">🚪 Cerrar Sesión</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="top-bar">
+                <h1>Gestión de Servicios Funerarios</h1>
+                <button class="btn btn-primary" onclick="showNuevoServicioModal()">➕ Nuevo Servicio</button>
+            </div>
+
+            <!-- Filtros -->
+            <div class="content-box">
+                <h2>Filtros</h2>
+                <div class="flex gap-10">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Estado</label>
+                        <select id="filtroEstado" onchange="loadServicios()">
+                            <option value="">Todos</option>
+                            <option value="Registrado">Registrado</option>
+                            <option value="EnProceso">En Proceso</option>
+                            <option value="Completado">Completado</option>
+                            <option value="Cancelado">Cancelado</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>Buscar</label>
+                        <input type="text" id="buscarTexto" placeholder="Nombre o expediente..." onkeyup="filtrarServicios()">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lista de Servicios -->
+            <div class="content-box">
+                <h2>Servicios Registrados</h2>
+                <div id="loading" class="loading">
+                    <div class="spinner"></div>
+                    <p>Cargando servicios...</p>
+                </div>
+                
+                <div id="serviciosContainer" class="hidden">
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Expediente</th>
+                                    <th>Nombre Difunto</th>
+                                    <th>Fecha Fallecimiento</th>
+                                    <th>Paquete</th>
+                                    <th>Tipo</th>
+                                    <th>Estado</th>
+                                    <th>Total</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="serviciosList"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal Nuevo Servicio -->
+    <div id="modalServicio" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Nuevo Servicio Funerario</h2>
+                <button class="close-modal" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="formServicio">
+                <div class="form-group">
+                    <label>Nombre Difunto</label>
+                    <input id="nombreDifunto" required>
+                </div>
+                <div class="form-group">
+                    <label>Cédula Difunto</label>
+                    <input id="cedulaDifunto">
+                </div>
+                <div class="form-group">
+                    <label>Fecha Fallecimiento</label>
+                    <input type="date" id="fechaFallecimiento" required>
+                </div>
+                <div class="form-group">
+                    <label>Edad</label>
+                    <input type="number" id="edad">
+                </div>
+                <div class="form-group">
+                    <label>Lugar Fallecimiento</label>
+                    <input id="lugarFallecimiento">
+                </div>
+                <div class="form-group">
+                    <label>Nombre Familiar</label>
+                    <input id="nombreFamiliar">
+                </div>
+                <div class="form-group">
+                    <label>Parentesco</label>
+                    <input id="parentesco">
+                </div>
+                <div class="form-group">
+                    <label>Teléfono Familiar</label>
+                    <input id="telefonoFamiliar">
+                </div>
+                <div class="form-group">
+                    <label>Email Familiar</label>
+                    <input id="emailFamiliar">
+                </div>
+                <div class="form-group">
+                    <label>Paquete</label>
+                    <input id="paquete">
+                </div>
+                <div class="form-group">
+                    <label>Tipo Servicio</label>
+                    <input id="tipoServicio">
+                </div>
+                <div class="form-group">
+                    <label>Sala Velación</label>
+                    <input id="salaVelacion">
+                </div>
+                <div class="form-group">
+                    <label><input type="checkbox" id="ceremoniaReligiosa"> Ceremonia Religiosa</label>
+                </div>
+                <div class="form-group">
+                    <label><input type="checkbox" id="gestionDocumentalCompleta"> Gestión Documental Completa</label>
+                </div>
+                <div class="form-group">
+                    <label>Observaciones</label>
+                    <textarea id="observaciones"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Guardar</button>
+                <button class="btn" type="button" onclick="closeModal()">Cancelar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/servicios.js"></script>
+</body>
+</html>

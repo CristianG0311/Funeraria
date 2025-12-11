@@ -1,0 +1,218 @@
+/* RESET */
+* { box-sizing: border-box; }
+body {
+margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('img/paisaje.png') center/cover fixed no-repeat;
+    color: #222;
+}
+
+/* NAV */
+nav {
+    width: 100%;
+    background-color: #072344;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 6%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+nav .logo {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .18s;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.10);
+}
+
+/* ---------------------------
+   HEADER / HERO (compensar nav fija)
+   --------------------------- */
+.servicios-hero {
+    background: url('img/hero-servicios.jpg') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 110px 20px 80px; /* padding-top aumentado para compensar nav fija */
+    margin-top: 0;
+}
+.servicios-hero h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+}
+.servicios-hero p {
+    font-size: 1.15rem;
+    margin: 0 auto;
+    max-width: 880px;
+}
+
+/* ---------------------------
+   LISTA DE SERVICIOS (tarjetas)
+   --------------------------- */
+.servicios-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+    padding: 45px 4% 30px; /* menos padding lateral para pantallas pequeñas */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.img {
+    width: 68px;
+    height: 68px;
+    object-fit: contain;
+    margin-bottom: 14px;
+}
+
+.servicio-card {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(6,18,37,0.08);
+    text-align: center;
+    padding: 26px 20px;
+    transition: transform .22s ease, box-shadow .22s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 28px rgba(6,18,37,0.10);
+}
+.servicio-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 14px;
+    
+}
+.servicio-card h3 {
+    margin: 8px 0 8px 0;
+    color: #0e2a47;
+    font-size: 1.15rem;
+}
+.servicio-card p {
+    font-size: 0.99rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    flex: 1 0 auto; /* empuja el botón al final si el texto crece */
+}
+
+/* BOTON DE INFORMACIÓN (en la tarjeta) */
+.boton-info {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #0e2a47;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: transform .14s ease, background-color .14s ease;
+}
+.boton-info:hover {
+    background-color: #0b3a70;
+    transform: translateY(-3px);
+}
+
+/* ---------------------------
+   GALERÍA
+   --------------------------- */
+.galeria {
+    padding: 40px 4% 70px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.galeria h2 {
+    color: #0e2a47;
+    margin-bottom: 18px;
+}
+.galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+}
+.galeria-contenedor img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(6,18,37,0.06);
+    transition: transform .2s ease;
+}
+.galeria-contenedor img:hover {
+    transform: scale(1.03);
+}
+
+/* ---------------------------
+   FOOTER (coherente con otras páginas)
+   --------------------------- */
+.footer {
+    background-color: #072344;
+    color: white;
+    text-align: center;
+    padding: 28px 16px 12px;
+    margin-top: 40px;
+}
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 6px 12px;
+}
+.footer-content h3 {
+    margin: 0 0 6px 0;
+    font-size: 1.4rem;
+}
+.footer-content p {
+    margin: 6px 0 12px 0;
+    font-size: 1rem;
+}
+.footer-info p {
+    margin: 4px 0;
+    font-size: 0.98rem;
+}
+.footer-bottom {
+    margin-top: 18px;
+    background-color: #061b30;
+    padding: 10px;
+    font-size: 0.88rem;
+}
+
+/* ---------------------------
+   Responsive tweaks
+   --------------------------- */
+@media (max-width: 900px) {
+    .servicios-lista { gap: 20px; padding: 40px 4%; }
+    .servicio-card { width: 46%; min-width: 260px; }
+}
+
+@media (max-width: 680px) {
+    nav { padding: 10px 5%; }
+    .servicio-card { width: 100%; min-width: 0; }
+    .servicios-hero { padding: 90px 16px 60px; }
+    .galeria-contenedor img { height: 170px; }
+}
+
+/* Si necesitas comportamiento tipo "hamburger" más adelante,
+   puedo añadir el HTML + JS; por ahora el menú se envuelve y
+   permanece legible en móviles sin scripts. */

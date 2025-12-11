@@ -1,0 +1,495 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funerariapanel\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|solutionrelative:funerariapanel\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funerariapanel\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|solutionrelative:funerariapanel\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funerariapanel\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|solutionrelative:funerariapanel\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\funeraria.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\funeraria.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funerariapanel\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|solutionrelative:funerariapanel\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funerariapanel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|solutionrelative:funerariapanel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8244E5EF-85B1-5CF2-740D-685751E12B2E}|Funeraria.Infraestructura\\Funeraria.Infraestructura.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.infraestructura\\repositorios\\documentolegalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8244E5EF-85B1-5CF2-740D-685751E12B2E}|Funeraria.Infraestructura\\Funeraria.Infraestructura.csproj|solutionrelative:funeraria.infraestructura\\repositorios\\documentolegalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.dominio\\interfaces\\idocumentolegalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|solutionrelative:funeraria.dominio\\interfaces\\idocumentolegalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\servicios\\documentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\servicios\\documentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\interfaces\\idocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\interfaces\\idocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.dominio\\entidades\\documentolegal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|solutionrelative:funeraria.dominio\\entidades\\documentolegal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\servicios\\facturacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\servicios\\facturacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.dominio\\entidades\\serviciofunerario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|solutionrelative:funeraria.dominio\\entidades\\serviciofunerario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.dominio\\interfaces\\iserviciofunerariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|solutionrelative:funeraria.dominio\\interfaces\\iserviciofunerariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.dominio\\interfaces\\ifacturacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|solutionrelative:funeraria.dominio\\interfaces\\ifacturacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8244E5EF-85B1-5CF2-740D-685751E12B2E}|Funeraria.Infraestructura\\Funeraria.Infraestructura.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.infraestructura\\repositorios\\facturacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8244E5EF-85B1-5CF2-740D-685751E12B2E}|Funeraria.Infraestructura\\Funeraria.Infraestructura.csproj|solutionrelative:funeraria.infraestructura\\repositorios\\facturacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\servicios\\inventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\servicios\\inventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.dominio\\entidades\\articuloinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3B246C-0904-2886-8AED-C8AE7F0097FF}|Funeraria.Dominio\\Funeraria.Dominio.csproj|solutionrelative:funeraria.dominio\\entidades\\articuloinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8244E5EF-85B1-5CF2-740D-685751E12B2E}|Funeraria.Infraestructura\\Funeraria.Infraestructura.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.infraestructura\\persistencia\\funerariadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8244E5EF-85B1-5CF2-740D-685751E12B2E}|Funeraria.Infraestructura\\Funeraria.Infraestructura.csproj|solutionrelative:funeraria.infraestructura\\persistencia\\funerariadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\dtos\\inventario\\creararticulorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\dtos\\inventario\\creararticulorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\dtos\\inventario\\articuloinventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\dtos\\inventario\\articuloinventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\dtos\\documentos\\documentolegaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\dtos\\documentos\\documentolegaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funeraria.aplicacion\\dtos\\documentos\\actualizardocumentorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1275AC2-19CB-06FF-C071-8E891BA3D976}|Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj|solutionrelative:funeraria.aplicacion\\dtos\\documentos\\actualizardocumentorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|c:\\users\\paul\\downloads\\funeraria,beta (2)\\funeraria,beta\\backend\\funerariapanel\\funerariapanel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E7BDD45-3AF9-ED46-502C-AE28ECD646ED}|FunerariaPanel\\FunerariaPanel.csproj|solutionrelative:funerariapanel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Paul\\Downloads\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208024308_RutaArchivoNullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Paul\\Downloads\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208005120_Funeraria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 20,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\InventarioController.cs",
+              "RelativeDocumentMoniker": "FunerariaPanel\\Controllers\\InventarioController.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\InventarioController.cs",
+              "RelativeToolTip": "FunerariaPanel\\Controllers\\InventarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T15:44:08.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:40:46.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:40:09.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FunerariaPanel\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FunerariaPanel\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:38:45.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "FunerariaPanel\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "FunerariaPanel\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:38:44.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\DocumentosController.cs",
+              "RelativeDocumentMoniker": "FunerariaPanel\\Controllers\\DocumentosController.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Controllers\\DocumentosController.cs",
+              "RelativeToolTip": "FunerariaPanel\\Controllers\\DocumentosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:17:49.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDocumentoLegalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Interfaces\\IDocumentoLegalRepository.cs",
+              "RelativeDocumentMoniker": "Funeraria.Dominio\\Interfaces\\IDocumentoLegalRepository.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Interfaces\\IDocumentoLegalRepository.cs",
+              "RelativeToolTip": "Funeraria.Dominio\\Interfaces\\IDocumentoLegalRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:39:09.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Funeraria.Aplicacion.csproj",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj",
+              "RelativeToolTip": "Funeraria.Aplicacion\\Funeraria.Aplicacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T04:02:09.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Program.cs",
+              "RelativeDocumentMoniker": "FunerariaPanel\\Program.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\Program.cs",
+              "RelativeToolTip": "FunerariaPanel\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwv1QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:22:20.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDocumentoService.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Interfaces\\IDocumentoService.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\Interfaces\\IDocumentoService.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Interfaces\\IDocumentoService.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\Interfaces\\IDocumentoService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:11:55.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DocumentoService.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Servicios\\DocumentoService.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\Servicios\\DocumentoService.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Servicios\\DocumentoService.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\Servicios\\DocumentoService.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:08:28.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentoLegalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Repositorios\\DocumentoLegalRepository.cs",
+              "RelativeDocumentMoniker": "Funeraria.Infraestructura\\Repositorios\\DocumentoLegalRepository.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Repositorios\\DocumentoLegalRepository.cs",
+              "RelativeToolTip": "Funeraria.Infraestructura\\Repositorios\\DocumentoLegalRepository.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv08AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:16:47.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DocumentoLegal.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Entidades\\DocumentoLegal.cs",
+              "RelativeDocumentMoniker": "Funeraria.Dominio\\Entidades\\DocumentoLegal.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Entidades\\DocumentoLegal.cs",
+              "RelativeToolTip": "Funeraria.Dominio\\Entidades\\DocumentoLegal.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA+wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:39:25.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FunerariaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Persistencia\\FunerariaDbContext.cs",
+              "RelativeDocumentMoniker": "Funeraria.Infraestructura\\Persistencia\\FunerariaDbContext.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Persistencia\\FunerariaDbContext.cs",
+              "RelativeToolTip": "Funeraria.Infraestructura\\Persistencia\\FunerariaDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:58:40.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FacturacionService.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Servicios\\FacturacionService.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\Servicios\\FacturacionService.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Servicios\\FacturacionService.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\Servicios\\FacturacionService.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAwwNQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:02:20.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FacturacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Repositorios\\FacturacionRepository.cs",
+              "RelativeDocumentMoniker": "Funeraria.Infraestructura\\Repositorios\\FacturacionRepository.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Repositorios\\FacturacionRepository.cs",
+              "RelativeToolTip": "Funeraria.Infraestructura\\Repositorios\\FacturacionRepository.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAUwNoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:02:31.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IFacturacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Interfaces\\IFacturacionRepository.cs",
+              "RelativeDocumentMoniker": "Funeraria.Dominio\\Interfaces\\IFacturacionRepository.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Interfaces\\IFacturacionRepository.cs",
+              "RelativeToolTip": "Funeraria.Dominio\\Interfaces\\IFacturacionRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:04:42.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IServicioFunerarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Interfaces\\IServicioFunerarioRepository.cs",
+              "RelativeDocumentMoniker": "Funeraria.Dominio\\Interfaces\\IServicioFunerarioRepository.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Interfaces\\IServicioFunerarioRepository.cs",
+              "RelativeToolTip": "Funeraria.Dominio\\Interfaces\\IServicioFunerarioRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:05:00.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServicioFunerario.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Entidades\\ServicioFunerario.cs",
+              "RelativeDocumentMoniker": "Funeraria.Dominio\\Entidades\\ServicioFunerario.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Entidades\\ServicioFunerario.cs",
+              "RelativeToolTip": "Funeraria.Dominio\\Entidades\\ServicioFunerario.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:05:39.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ArticuloInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Entidades\\ArticuloInventario.cs",
+              "RelativeDocumentMoniker": "Funeraria.Dominio\\Entidades\\ArticuloInventario.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Dominio\\Entidades\\ArticuloInventario.cs",
+              "RelativeToolTip": "Funeraria.Dominio\\Entidades\\ArticuloInventario.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:36:55.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CrearArticuloRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Inventario\\CrearArticuloRequest.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\DTOs\\Inventario\\CrearArticuloRequest.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Inventario\\CrearArticuloRequest.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\DTOs\\Inventario\\CrearArticuloRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:34:05.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ArticuloInventarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Inventario\\ArticuloInventarioDto.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\DTOs\\Inventario\\ArticuloInventarioDto.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Inventario\\ArticuloInventarioDto.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\DTOs\\Inventario\\ArticuloInventarioDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:31:47.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InventarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Servicios\\InventarioService.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\Servicios\\InventarioService.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\Servicios\\InventarioService.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\Servicios\\InventarioService.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAAAMcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:28:26.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DocumentoLegalDto.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Documentos\\DocumentoLegalDto.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\DTOs\\Documentos\\DocumentoLegalDto.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Documentos\\DocumentoLegalDto.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\DTOs\\Documentos\\DocumentoLegalDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA8wB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:02:48.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20251208024308_RutaArchivoNullable.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208024308_RutaArchivoNullable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208024308_RutaArchivoNullable.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208024308_RutaArchivoNullable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208024308_RutaArchivoNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:43:08.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ActualizarDocumentoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Documentos\\ActualizarDocumentoRequest.cs",
+              "RelativeDocumentMoniker": "Funeraria.Aplicacion\\DTOs\\Documentos\\ActualizarDocumentoRequest.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Aplicacion\\DTOs\\Documentos\\ActualizarDocumentoRequest.cs",
+              "RelativeToolTip": "Funeraria.Aplicacion\\DTOs\\Documentos\\ActualizarDocumentoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:20:18.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20251208005120_Funeraria.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208005120_Funeraria.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208005120_Funeraria.cs",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208005120_Funeraria.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\funeraria,beta\\funeraria,beta\\Backend\\FunerariaPanel\\Funeraria.Infraestructura\\Migrations\\20251208005120_Funeraria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:51:21.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\appsettings.json",
+              "RelativeDocumentMoniker": "FunerariaPanel\\appsettings.json",
+              "ToolTip": "C:\\Users\\Paul\\Downloads\\funeraria,beta (2)\\funeraria,beta\\Backend\\FunerariaPanel\\FunerariaPanel\\appsettings.json",
+              "RelativeToolTip": "FunerariaPanel\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAClAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T00:49:04.418Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario - Sistema Funeraria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>🏛️ Funeraria</h2>
+                <p id="userRole">Administrador</p>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li>
+                    <a href="dashboard.html">
+                        <i>📊</i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="servicios.html">
+                        <i>📋</i>
+                        <span>Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="documentos.html">
+                        <i>📄</i>
+                        <span>Documentos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="inventario.html" class="active">
+                        <i>📦</i>
+                        <span>Inventario</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="facturacion.html">
+                        <i>💰</i>
+                        <span>Facturación</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="btn btn-danger logout-btn" onclick="logout()">
+                🚪 Cerrar Sesión
+            </button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <h1>Gestión de Inventario</h1>
+                <button class="btn btn-primary" onclick="showNuevoArticuloModal()">
+                    ➕ Nuevo Artículo
+                </button>
+            </div>
+
+            <!-- Estadísticas -->
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Total Artículos</span>
+                        <div class="card-icon blue">📦</div>
+                    </div>
+                    <div class="card-value" id="totalArticulos">0</div>
+                    <div class="card-label">En inventario</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Stock Crítico</span>
+                        <div class="card-icon red">⚠️</div>
+                    </div>
+                    <div class="card-value" id="stockCritico">0</div>
+                    <div class="card-label">Requiere atención</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Valor Inventario</span>
+                        <div class="card-icon green">💵</div>
+                    </div>
+                    <div class="card-value" id="valorInventario">$0</div>
+                    <div class="card-label">Valor total</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Artículos Agotados</span>
+                        <div class="card-icon orange">📭</div>
+                    </div>
+                    <div class="card-value" id="articulosAgotados">0</div>
+                    <div class="card-label">Sin stock</div>
+                </div>
+            </div>
+
+            <!-- Filtros -->
+            <div class="content-box">
+                <h2>Filtros</h2>
+                <div class="flex gap-10">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Categoría</label>
+                        <select id="filtroCategoria" onchange="loadInventario()">
+                            <option value="">Todas</option>
+                            <option value="Ataudes">Ataúdes</option>
+                            <option value="Urnas">Urnas</option>
+                            <option value="Flores">Flores</option>
+                            <option value="Velas">Velas</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group" style="flex: 1;">
+                        <label>Estado Stock</label>
+                        <select id="filtroEstadoStock" onchange="loadInventario()">
+                            <option value="">Todos</option>
+                            <option value="Normal">Normal</option>
+                            <option value="Bajo">Bajo</option>
+                            <option value="Critico">Crítico</option>
+                            <option value="Agotado">Agotado</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group" style="flex: 1;">
+                        <label>Buscar</label>
+                        <input type="text" id="buscarTexto" placeholder="Nombre o código..." onkeyup="filtrarInventario()">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lista de Inventario -->
+            <div class="content-box">
+                <h2>Artículos en Inventario</h2>
+                <div id="loading" class="loading">
+                    <div class="spinner"></div>
+                    <p>Cargando inventario...</p>
+                </div>
+                
+                <div id="inventarioContainer" class="hidden">
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nombre</th>
+                                    <th>Categoría</th>
+                                    <th>Stock</th>
+                                    <th>Mínimo</th>
+                                    <th>Estado</th>
+                                    <th>Precio Venta</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="inventarioList">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal Nuevo Artículo -->
+    <div id="modalNuevoArticulo" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>➕ Nuevo Artículo</h2>
+                <button class="close-modal" onclick="closeModal()">&times;</button>
+            </div>
+            
+            <form id="formNuevoArticulo" onsubmit="crearArticulo(event)">
+                <div class="form-group">
+                    <label>Nombre del Artículo *</label>
+                    <input type="text" id="nombre" required placeholder="Ej: Ataúd Premium Caoba">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Código *</label>
+                        <input type="text" id="codigo" required placeholder="Ej: ART-001">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Categoría *</label>
+                        <select id="categoria" required>
+                            <option value="">Seleccione...</option>
+                            <option value="Ataudes">Ataúdes</option>
+                            <option value="Urnas">Urnas</option>
+                            <option value="Flores">Flores</option>
+                            <option value="Velas">Velas</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Descripción</label>
+                    <textarea id="descripcion" rows="3" placeholder="Descripción del artículo..."></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Cantidad Inicial *</label>
+                        <input type="number" id="cantidadDisponible" required min="0" value="0">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Stock Mínimo *</label>
+                        <input type="number" id="stockMinimo" required min="1" value="5">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Precio Costo *</label>
+                        <input type="number" id="precioCosto" required min="0" step="0.01" placeholder="0.00">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Precio Venta *</label>
+                        <input type="number" id="precioVenta" required min="0" step="0.01" placeholder="0.00">
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">
+                        Cancelar
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        💾 Guardar Artículo
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Ajustar Stock -->
+    <div id="modalAjustarStock" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📦 Ajustar Stock</h2>
+                <button class="close-modal" onclick="closeModalAjustar()">&times;</button>
+            </div>
+            
+            <form id="formAjustarStock" onsubmit="ajustarStock(event)">
+                <input type="hidden" id="ajustarArticuloId">
+                
+                <div class="alert alert-info" style="margin-bottom: 20px;">
+                    <strong>Artículo:</strong> <span id="ajustarNombre"></span><br>
+                    <strong>Stock Actual:</strong> <span id="ajustarStockActual"></span> unidades
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo de Ajuste *</label>
+                    <select id="tipoAjuste" required>
+                        <option value="entrada">➕ Entrada (Agregar Stock)</option>
+                        <option value="salida">➖ Salida (Reducir Stock)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Cantidad *</label>
+                    <input type="number" id="cantidadAjuste" required min="1" placeholder="Ingrese la cantidad">
+                </div>
+
+                <div class="form-group">
+                    <label>Motivo *</label>
+                    <textarea id="motivoAjuste" rows="3" required placeholder="Ej: Compra de proveedor, Devolución, Ajuste de inventario, etc."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModalAjustar()">
+                        Cancelar
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        💾 Aplicar Ajuste
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/inventario.js"></script>
+</body>
+</html>

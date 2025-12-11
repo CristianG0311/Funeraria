@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facturación - Sistema Funeraria</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      /* Asegurar correcto comportamiento visual del modal (no rompe tu css existente) */
+      .modal.hidden { display: none !important; }
+      .modal.show { display:flex !important; align-items:center; justify-content:center; }
+      .modal .modal-content { max-width:600px; width:95%; padding:18px; }
+      .btn-pagar { padding:6px 10px; font-size:14px; }
+    </style>
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar (idéntico al tuyo) -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>🏛️ Funeraria</h2>
+            <p id="userRole">Administrador</p>
+        </div>
+
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html"><i>📊</i><span>Dashboard</span></a></li>
+            <li><a href="servicios.html"><i>📋</i><span>Servicios</span></a></li>
+            <li><a href="documentos.html"><i>📄</i><span>Documentos</span></a></li>
+            <li><a href="inventario.html"><i>📦</i><span>Inventario</span></a></li>
+            <li><a href="facturacion.html" class="active"><i>💰</i><span>Facturación</span></a></li>
+        </ul>
+
+        <button class="btn btn-danger logout-btn" onclick="logout()">🚪 Cerrar Sesión</button>
+    </aside>
+
+    <!-- Main Content (idéntico a tu estructura) -->
+    <main class="main-content">
+
+        <div class="top-bar">
+            <h1>Gestión de Facturación</h1>
+            <button class="btn btn-primary" id="btnGenerarFactura">➕ Generar Factura</button>
+        </div>
+
+        <!-- Lista de facturas -->
+        <div class="content-box">
+            <h2>Facturas Emitidas</h2>
+
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Cargando facturas...</p>
+            </div>
+
+            <div id="facturasContainer" class="">
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nº Factura</th>
+                                <th>Expediente</th>
+                                <th>Nombre Difunto</th>
+                                <th>Fecha</th>
+                                <th>Total</th>
+                                <th>Pagado</th>
+                                <th>Saldo Pendiente</th>
+                                <th>Estado</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="facturasList"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- MODAL GENERAR FACTURA (tal como lo tenías) -->
+<!-- ========================================================= -->
+<div id="modalGenerarFactura" class="modal hidden">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>➕ Generar Nueva Factura</h2>
+            <button class="close-modal" onclick="closeModalFactura()">&times;</button>
+        </div>
+
+        <form id="formGenerarFactura" onsubmit="generarFactura(event)">
+            <div class="form-group">
+                <label>Servicio *</label>
+                <select id="servicioIdFactura" required></select>
+            </div>
+
+            <div id="detallesServicio" class="hidden" style="background:#f8f9fa;padding:15px;border-radius:5px;margin:15px 0;">
+                <h3 style="margin-top:0;">Detalles del Servicio</h3>
+                <p><strong>Difunto:</strong> <span id="nombreDifunto">-</span></p>
+                <p><strong>Expediente:</strong> <span id="codigoExpediente">-</span></p>
+                <p><strong>Paquete:</strong> <span id="paqueteServicio">-</span></p>
+            </div>
+
+            <div class="form-group">
+                <label>Descuento (%)</label>
+                <input type="number" id="descuento" min="0" max="100" value="0">
+            </div>
+
+            <div class="form-group">
+                <label>Método de Pago *</label>
+                <select id="metodoPago" required>
+                    <option value="">Seleccione...</option>
+                    <option value="Efectivo">Efectivo</option>
+                    <option value="Tarjeta">Tarjeta</option>
+                    <option value="Transferencia">Transferencia</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Observaciones</label>
+                <textarea id="observacionesFactura" rows="2"></textarea>
+            </div>
+
+            <div class="form-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModalFactura()">Cancelar</button>
+                <button type="submit" class="btn btn-primary">💾 Generar Factura</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- ========================================================= -->
+<!-- MODAL REGISTRAR PAGO (completo y accesible) -->
+<!-- ========================================================= -->
+<div id="modalPago" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalPagoTitle">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="modalPagoTitle">💵 Registrar Pago</h2>
+      <button class="close-modal" id="closeModalPago" aria-label="Cerrar">&times;</button>
+    </div>
+
+    <form id="formPago">
+      <input type="hidden" id="facturaPagoId" />
+
+      <p><strong>Factura:</strong> <span id="facturaNumeroPago">-</span></p>
+      <p><strong>Saldo Pendiente:</strong> <span id="facturaSaldoPago">-</span></p>
+
+      <div class="form-group">
+        <label for="montoPago">Monto a pagar *</label>
+        <input type="number" id="montoPago" min="0.01" step="0.01" required />
+      </div>
+
+      <div class="form-group">
+        <label for="metodoPagoRegistro">Método de Pago *</label>
+        <select id="metodoPagoRegistro" required>
+          <option value="">Seleccione...</option>
+          <option value="Efectivo">Efectivo</option>
+          <option value="Tarjeta">Tarjeta</option>
+          <option value="Transferencia">Transferencia</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="obsPago">Observaciones</label>
+        <textarea id="obsPago" rows="2"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="btn btn-secondary" id="cancelPago">Cancelar</button>
+        <button type="submit" class="btn btn-primary">💾 Registrar Pago</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/config.js"></script>
+<script src="js/facturacion.js"></script>
+</body>
+</html>

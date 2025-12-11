@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema Funeraria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>🏛️ Funeraria</h2>
+                <p id="userRole">Administrador</p>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li>
+                    <a href="dashboard.html" class="active">
+                        <i>📊</i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="servicios.html">
+                        <i>📋</i>
+                        <span>Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="documentos.html">
+                        <i>📄</i>
+                        <span>Documentos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="inventario.html">
+                        <i>📦</i>
+                        <span>Inventario</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="facturacion.html">
+                        <i>💰</i>
+                        <span>Facturación</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="btn btn-danger logout-btn" onclick="logout()">
+                🚪 Cerrar Sesión
+            </button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <h1>Dashboard</h1>
+                <div class="user-info">
+                    <span id="userName">Usuario</span>
+                </div>
+            </div>
+
+            <!-- Loading -->
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Cargando información...</p>
+            </div>
+
+            <!-- Dashboard Content -->
+            <div id="dashboardContent" class="hidden">
+                <!-- Cards de Estadísticas -->
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="card-title">Servicios Activos</span>
+                            <div class="card-icon blue">📋</div>
+                        </div>
+                        <div class="card-value" id="serviciosActivos">0</div>
+                        <div class="card-label">En proceso</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="card-title">Documentos Pendientes</span>
+                            <div class="card-icon orange">📄</div>
+                        </div>
+                        <div class="card-value" id="documentosPendientes">0</div>
+                        <div class="card-label">Por gestionar</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="card-title">Artículos Críticos</span>
+                            <div class="card-icon red">⚠️</div>
+                        </div>
+                        <div class="card-value" id="articulosCriticos">0</div>
+                        <div class="card-label">Stock bajo</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="card-title">Facturación Mes</span>
+                            <div class="card-icon green">💰</div>
+                        </div>
+                        <div class="card-value" id="facturacionMes">$0</div>
+                        <div class="card-label">Total del mes</div>
+                    </div>
+                </div>
+
+                <!-- Alertas -->
+                <div id="alertasContainer"></div>
+
+                <!-- Servicios Recientes -->
+                <div class="content-box">
+                    <h2>Servicios Recientes</h2>
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Expediente</th>
+                                    <th>Nombre Difunto</th>
+                                    <th>Fecha Fallecimiento</th>
+                                    <th>Estado</th>
+                                    <th>Total</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="serviciosRecientes">
+                                <tr>
+                                    <td colspan="6" class="text-center">Cargando...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

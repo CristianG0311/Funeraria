@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Funeraria.Dominio.Entidades
+{
+    /// <summary>
+    /// Representa un usuario del sistema (CU-001)
+    /// </summary>
+    public class Usuario
+    {
+        // Identificador único del usuario
+        public int Id { get; set; }
+
+        // Nombre de usuario para iniciar sesión
+        public string NombreUsuario { get; set; }
+
+        // Contraseña encriptada
+        public string PasswordHash { get; set; }
+
+        // Nombre completo del usuario
+        public string NombreCompleto { get; set; }
+
+        // Email del usuario
+        public string Email { get; set; }
+
+        // Rol: "Administrador", "UsuarioNormal"
+        public string Rol { get; set; }
+
+        // Indica si el usuario está activo (true = Activo, false = Inactivo)
+        public bool Activo { get; set; }
+
+        // Fecha de creación del usuario
+        public DateTime FechaCreacion { get; set; }
+
+        // Fecha del último acceso
+        public DateTime? UltimoAcceso { get; set; }
+    }
+}
